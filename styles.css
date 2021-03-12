@@ -11,10 +11,9 @@ body {
     justify-content: center;
 }
 
-.sec-title{
+.sec-title {
     padding-bottom: 3%;
 }
-
 
 /*Section Classes*/
 
@@ -22,7 +21,6 @@ body {
     background-color: #C8102E;
     color: #041E42;
     margin: 2% 0%;
-    
 }
 
 .blue-bg {
@@ -42,12 +40,16 @@ body {
     line-height: 1.5;
 }
 
-
-
 /*******Section Id's************/
+
 /*Navbar Div */
 
-
+.stlsymbol{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+}
 
 .left {
     text-align: left;
@@ -64,26 +66,22 @@ body {
     width: 30rem;
 }
 
-
-
-
 /*Feature Section*/
-#Features{
+
+#Features {
     padding: 5%;
 }
 
-.f-col{
-height: 50%;
-width: 50%;
-margin-left: 2%;
-margin-right: 2%;
+.f-col {
+    height: 50%;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-
-
-
 /*Projects Section*/
-#Projects{
+
+#Projects {
     padding: 5%;
 }
 
@@ -93,9 +91,6 @@ margin-right: 2%;
     padding: 0% 2%;
     align-content: center;
 }
-
-
-
 
 /*About Section*/
 
@@ -132,11 +127,4 @@ margin-right: 2%;
     background-color: yellow;
 }
 
-
-
 /*Contact Section*/
-
-#sec-contact {
-    position: relative;
-    margin: 3%;
-}

@@ -40,26 +40,64 @@
             $("#intro2").delay(800).animate({
                 // 'font-size': '5.5rem',
                 'opacity': '1'
-            }, 1000); $("#intro2").delay(800).animate({
-                // 'font-size': '4.5rem',
-                'opacity': '1'
-            }, 1000);
-
+            }, 1000); 
             $("#intro3").delay(1200).animate({
                 'opacity': '1'
-            }, 400);
-            $("#intro4").delay(1200).animate({
-                'opacity': '1'
-            }, 400);
-            $("#intro5").delay(1400).animate({
+            }, 600);
+            // $("#intro4").delay(1200).animate({
+            //     'opacity': '1'
+            // }, 400);
+            // $("#intro5").delay(1400).animate({
+            //     'opacity': '1'
+            // }, 1000);
+            $("#intro6").delay(1400).animate({
                 'opacity': '1'
             }, 1000);
-            $("#intro6").delay(1400).animate({
+            $("#myLink1").delay(1600).animate({
+                'opacity': '1'
+            }, 1000);
+            $("#myLink2").delay(1600).animate({
                 'opacity': '1'
             }, 1000);
         });
     </script>
 </head>
+<style>
+    #myLink1 {
+        position: relative;
+        animation-name: example1;
+        animation-duration: 3s;
+        animation-direction:normal
+    }
+
+    @keyframes example1 {
+        to {
+            transform:translateX(0px);
+        }
+
+        from {
+            transform:translateX(-600px);
+        }
+    }
+
+    #myLink2 {
+        position: relative;
+        animation-name: example2;
+        animation-duration: 3s;
+        animation-direction:normal
+    }
+
+    @keyframes example2 {
+        to {
+            transform:translateX(0px);
+        }
+
+        from {
+            transform:translateX(600px);
+        }
+    }
+
+</style>
 
 <body>
     <div class="container">
@@ -67,9 +105,9 @@
             <div class="intro-txt">
                 <h1 id="intro1" class="op0">Derek Rubie</h1>
                 <h1 id="intro2" class="op0">a</h1>
-                <h1 id="intro3" class="op0">web devloperr</h1>
-                <a href="index.html" class="myLinks">My Portfolio</a>
-                <a href="index.html" class="myLinks">About Me</a>
+                <h1 id="intro3" class="op0">WEB DEVELOPER</h1>
+                <a href="index.html" id="myLink1" class="op0">My Portfolio</a>
+                <a href="index.html" id="myLink2" class="op0">About Me</a>
             </div>
         </div>
     </div>

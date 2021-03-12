@@ -47,13 +47,11 @@ body {
   flex-direction: column;
   justify-content: center;
   line-height: 400px;
-  /* color: red; */
 }
 
 #intro1 {
   font-size: 3.8rem;
   margin-top: 7%;
-  /* padding-bottom: 1%; */
   text-shadow: 2px 2px #003DA5;
 }
 
@@ -91,40 +89,14 @@ body {
 
 .intro-links {
   font-size: 2rem;
-  /* text-shadow: 2px 2px #003DA5; */
-  /* text-align: right;
-  display: flex; */
   flex-direction: column;
   justify-content: center;
 }
 
-.myLinks{
+#myLink1{
   color: #fff;
-
 }
 
-
-
-/* .myButton {
-	box-shadow: 0px 0px 0px 2px #005B5C;
-	background: #fff;
-	background-color:#003DA5;
-	border-radius:10px;
-	border:1px solid #FCB514;
-	display:inline-block;
-	cursor:pointer;
-	color:#041E42;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow: 2px 2px #FCB514;
+#myLink2{
+  color: #fff;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-} */
