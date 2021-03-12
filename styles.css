@@ -1,0 +1,142 @@
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #041E42;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Crimson Pro', serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.sec-title{
+    padding-bottom: 3%;
+}
+
+
+/*Section Classes*/
+
+.red-bg {
+    background-color: #C8102E;
+    color: #041E42;
+    margin: 2% 0%;
+    
+}
+
+.blue-bg {
+    background-color: #041E42;
+    color: #ffffff;
+    margin: 2% 0%;
+}
+
+.white-bg {
+    background-color: #ffffff;
+    color: #041E42;
+    margin: 2% 0%;
+}
+
+.sec-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/*******Section Id's************/
+/*Navbar Div */
+
+
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.pimg {
+    position: relative;
+    text-align: left;
+    height: 16.8rem;
+    width: 30rem;
+}
+
+
+
+
+/*Feature Section*/
+#Features{
+    padding: 5%;
+}
+
+.f-col{
+height: 50%;
+width: 50%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+
+
+
+/*Projects Section*/
+#Projects{
+    padding: 5%;
+}
+
+.sec-projects {
+    position: relative;
+    margin: 2%;
+    padding: 0% 2%;
+    align-content: center;
+}
+
+
+
+
+/*About Section*/
+
+#sec-about {
+    position: relative;
+    margin: 3%;
+}
+
+.about-icons {
+    margin: 3%;
+}
+
+.about-pic_list {
+    background-color: #C8C9C7;
+    margin: 3%;
+    font-size: 10px;
+}
+
+.a-list {
+    background-color: white;
+    justify-content: center;
+}
+
+.f-icons {
+    height: 80px;
+    width: 80px;
+}
+
+#sec-web {
+    position: relative;
+}
+
+#sec-features {
+    background-color: yellow;
+}
+
+
+
+/*Contact Section*/
+
+#sec-contact {
+    position: relative;
+    margin: 3%;
+}

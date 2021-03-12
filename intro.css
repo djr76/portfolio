@@ -1,0 +1,130 @@
+body {
+  background: url(img/archa.jpg) no-repeat top center fixed;
+  /* background: url(img/archbw.jpg) no-repeat top center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Crimson Pro', serif;
+}
+
+#center-txt {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#center-links {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.intro-class {
+  margin-top: 8%;
+  padding-top: 50px;
+}
+
+.intro-txt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3.5remS;
+}
+
+.intro-links {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 400px;
+  /* color: red; */
+}
+
+#intro1 {
+  font-size: 3.8rem;
+  margin-top: 7%;
+  /* padding-bottom: 1%; */
+  text-shadow: 2px 2px #003DA5;
+}
+
+#intro2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px #003DA5;
+}
+
+#intro3 {
+  align-content: bottom;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 7rem;
+  margin-bottom: 0;
+  text-shadow: 2px 2px #003B5C;
+}
+
+#intro4 {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 7rem;
+  margin-bottom: 0;
+  text-shadow: 4px 4px #003B5C;
+}
+
+/* #intro5{
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 8rem;
+  margin-bottom: 0;
+  position:relative;
+  top:-5px;
+} */
+
+.op0 {
+  opacity: 0;
+}
+
+.intro-links {
+  font-size: 2rem;
+  /* text-shadow: 2px 2px #003DA5; */
+  /* text-align: right;
+  display: flex; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myLinks{
+  color: #fff;
+
+}
+
+
+
+/* .myButton {
+	box-shadow: 0px 0px 0px 2px #005B5C;
+	background: #fff;
+	background-color:#003DA5;
+	border-radius:10px;
+	border:1px solid #FCB514;
+	display:inline-block;
+	cursor:pointer;
+	color:#041E42;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow: 2px 2px #FCB514;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
