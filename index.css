@@ -49,31 +49,20 @@ body {
 }
 
 #intro1 {
-  font-size: 3.8rem;
+  font-size: 7rem;
+  font-family: 'Caveat', cursive;
   margin-top: 7%;
   text-shadow: 2px 2px #003DA5;
 }
 
-#intro2 {
-  font-size: 2rem;
-  text-shadow: 2px 2px #003DA5;
-}
 
 #intro3 {
   align-content: bottom;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Caveat', cursive;
   font-size: 7rem;
   margin-bottom: 0;
   text-shadow: 2px 2px #003B5C;
 }
-
-/* #intro5{
-  font-family: 'Nanum Brush Script', cursive;
-  font-size: 8rem;
-  margin-bottom: 0;
-  position:relative;
-  top:-5px;
-} */
 
 .op0 {
   opacity: 0;
@@ -91,4 +80,9 @@ body {
 
 #myLink2{
   color: #fff;
+}
+
+#btn_index{
+  outline: none;
+  border: yellow;
 }

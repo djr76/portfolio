@@ -1,126 +1,153 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rubie Web Development</title>
 
-<head>
-    <meta charset="utf-8">
-    <title>Derek Rubie. A Web Developer</title>
-
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Nanum+Brush+Script&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="intro.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
     <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="video.js" charset="utf-8"></script>
     <script>
-        $(document).ready(function () {
-            $("#intro1").delay(500).animate({
-                'opacity': '1'
-            }, 1000);
-            $("#intro2").delay(800).animate({
-                // 'font-size': '5.5rem',
-                'opacity': '1'
-            }, 1000); 
-            $("#intro3").delay(1200).animate({
-                'opacity': '1'
-            }, 600);
-            // $("#intro4").delay(1200).animate({
-            //     'opacity': '1'
-            // }, 400);
-            // $("#intro5").delay(1400).animate({
-            //     'opacity': '1'
-            // }, 1000);
-            $("#intro6").delay(1400).animate({
-                'opacity': '1'
-            }, 1000);
-            $("#myLink1").delay(1600).animate({
-                'opacity': '1'
-            }, 1000);
-            $("#myLink2").delay(1600).animate({
-                'opacity': '1'
-            }, 1000);
-        });
+      $(document).ready(function () {
+        $("#intro1").delay(500).animate(
+          {
+            opacity: "1",
+          },
+          1000
+        );
+        $("#intro2").delay(800).animate(
+          {
+            // 'font-size': '5.5rem',
+            opacity: "1",
+          },
+          1000
+        );
+        $("#intro3").delay(1200).animate(
+          {
+            opacity: "1",
+          },
+          600
+        );
+        $("#intro4").delay(1400).animate(
+          {
+            opacity: "1",
+          },
+          1000
+        );
+        $("#myLink1").delay(1600).animate(
+          {
+            opacity: "1",
+          },
+          1000
+        );
+        $("#myLink2").delay(1600).animate(
+          {
+            opacity: "1",
+          },
+          1000
+        );
+      });
     </script>
-</head>
-<style>
+  </head>
+  <style>
     #myLink1 {
-        position: relative;
-        animation-name: example1;
-        animation-duration: 3s;
-        animation-direction:normal
+      position: relative;
+      animation-name: example1;
+      animation-duration: 3s;
+      animation-direction: normal;
     }
 
     @keyframes example1 {
-        to {
-            transform:translateX(0px);
-        }
+      to {
+        transform: translateX(0px);
+      }
 
-        from {
-            transform:translateX(-600px);
-        }
+      from {
+        transform: translateX(-600px);
+      }
     }
 
     #myLink2 {
-        position: relative;
-        animation-name: example2;
-        animation-duration: 3s;
-        animation-direction:normal
+      position: relative;
+      animation-name: example2;
+      animation-duration: 3s;
+      animation-direction: normal;
     }
 
     @keyframes example2 {
-        to {
-            transform:translateX(0px);
-        }
+      to {
+        transform: translateX(0px);
+      }
 
-        from {
-            transform:translateX(600px);
-        }
+      from {
+        transform: translateX(600px);
+      }
     }
+  </style>
 
-</style>
-
-<body>
+  <body>
     <div class="container">
-        <div id="center-txt">
-            <div class="intro-txt">
-                <h1 id="intro1" class="op0">Derek Rubie</h1>
-                <h1 id="intro2" class="op0">a</h1>
-                <h1 id="intro3" class="op0">WEB DEVELOPER</h1>
-                <a href="index.html" id="myLink1" class="op0">My Portfolio</a>
-                <a href="index.html" id="myLink2" class="op0">About Me</a>
-            </div>
+      <div id="center-txt">
+        <div class="intro-txt">
+          <h2 id="intro1" class="op0">Rubie</h2>
+          <h1 id="intro3" class="op0">Web Development</h1>
+          <a
+            href="home.html"
+            id="myLink1"
+            class="op0"
+            style="text-decoration: none"
+            >My Profile</a
+          >
+          <!-- <a href="home.html" id="myLink2" class="op0" style="text-decoration: none" >Contact Me</a> -->
         </div>
+      </div>
     </div>
-    <!-- <div class="container">
-        <div id="center-links">
-            <div class="intro-links">
-                <a href="/index.html" class="myLinks">My Portfolio</a>
-                <a href="index.html" class="myLinks">About Me</a>
-            </div>
-        </div>
-    </div> -->
-
-
-</body>
-
+  </body>
 </html>

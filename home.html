@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital@1&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -47,12 +49,12 @@
                 </button>
                 <div class=" bar d-md-flex d-block flex-row mx-sm-auto mx-0">
                     <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                        <img class="stlsymbol" src="img/stlsymbol.png" alt="">
+                        <!-- <img class="stlsymbol" src="img/stlsymbol.png" alt=""> -->
+                        <a href="#About" class="nav-item nav-link" style="color: #ffffff;">About Me</a>
                         <a href="#Features" class="nav-item nav-link active" style="color: #ffffff;">Features</a>
                         <a href="#Projects" class="nav-item nav-link" style="color: #ffffff;">Projects</a>
-                        <a href="#About" class="nav-item nav-link" style="color: #ffffff;">About Me</a>
                         <a href="#Contact" class="nav-item nav-link" style="color: #ffffff;">Contact</a>
-                        <img class="stlsymbol" src="img/stlsymbol.png" alt="">
+                        <!-- <img class="stlsymbol" src="img/stlsymbol.png" alt=""> -->
                     </div>
                 </div>
             </nav>
@@ -60,99 +62,61 @@
     </section>
 
 
-    <!--Features Section -->
-    <section class="white-bg" id="Features">
-        <div class="sec-features">
-            <h1 class="sec-title">Websites that:</h1>
-            <div class="about-icons">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="features col-lg-4">
-                            <img class="f-icons" src="icons/responsive.png" alt="">
-                            <p>Adjust to any device screen size</p>
-                        </div>
-                        <div class="features col-lg-4">
-                            <img class="f-icons" src="icons/ease.png" alt="">
-                            <p>Navigation with examples</p>
-                        </div>
-                        <div class="features col-lg-4">
-                            <img class="f-icons" src="icons/clean.png" alt="">
-                            <p>Have a clean presentation</p>
-                        </div>
-                    </div>
-                    <div id="test" class="fancy_title">
-                        <canvas width=640 height=100></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!--Projects Section -->
-    <section class="blue-bg" id="Projects">
-        <div class="sec-projects">
-            <h1 class="sec-title">My Projects</h1>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="f-col col-lg-4 col-md-12">
-                        <a href="http://ritcheysroost.com/" style="color: white;">
-                            <h3>Ritchey's Roost</h3>
-                        </a>
-                        <img class="pimg" src="screensh/rr.png" alt="">
-                    </div>
-                    <div class="f-col col-lg-4 col-md-12">
-                        <a href="https://djr76.github.io/wwdw/" style="color: white;">
-                            <h3>Winnie's World</h3>
-                        </a>
-                        <img class="pimg" src="screensh/ww.png">
-                    </div>
-                    <div class="f-col col-lg-4 col-md-12">
-                        <a href="https://djr76.github.io/rps/" style="color: white;">
-                            <h3>Rubie Pool Service</h3>
-                        </a>
-                        <img class="pimg" src="screensh/rps.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="white-bg" id="About">
-        <div class="sec-about">
-            <div class="about-pic_list">
-                <h1 class="sec-title">About Me</h1>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col lg-6 md-12">
-                            <img src="img/p1.jpg" alt="">
-                            <p>
-                                A little about myself: I was born, raised, and lived in St. Louis, Missouri for 44
-                                years. A
-                                wonderful life opportunity was presented to me in 2020 and I took a big life risk
-                                and
-                                went
-                                for it, moving to New Jersey.
-                                I am a big fan of hockey and martial arts, but enjoy most sports also. I enjoy Web
-                                Devlopement because it gives me an opportunity to be creative and challenges me
-                                daily to
-                                be
-                                tetter and learn.
-                                My goal is to be hired by company with a strong team that works together,
-                                accomplishing
-                                great things, all the while enjoying the journey.
-                            </p>
+        <div id="about-sec">
+            <h1 id="about-title">About Me</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="about-col col-lg-6 col-md-12">
+                        <img id="about-pic" src="img/pp1.jpg" alt="">
+
+                    </div>
+                    <div class=" about-col col-lg-6 col-md-12 my-auto">
+                        <div id="list">
+                            <ul style="list-style-type:none;">
+                                <li class="a-list">I enjoy creativity and problem solving in Web Development.</li><br>
+                                <li class="a-list">I believe the foundation of a thriving business is client
+                                    satisfaction.</li><br>
+                                <li class="a-list">I am passionate about the improvement of my product.</li><br>
+                                <li class="a-list">I am a naive of Missouri.</li><br>
+                                <li class="a-list">I moved to New Jersey in 2020.</li><br>
+                                <li class="a-list">I am a die hard St. Louis Blues fan.</li>
+                            </ul>
                         </div>
-                        <div class="col lg-6 md-12">
+                        <!-- <h1 id="about-title">Skills</h1>
                             <ul style="list-style-type:none;">
                                 <li class="a-list">HTML</li>
                                 <li class="a-list">CSS</li>
                                 <li class="a-list">JavaScript</li>
                                 <li class="a-list">Node</li>
                                 <li class="a-list">Bootstrap/li>
-                            </ul>
+                            </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Features Section -->
+    <section class="blue-bg" id="Features">
+        <div class="features-sec">
+            <h1 id="features-title">My Websites</h1>
+            <div class="about-icons">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="features col-lg-4">
+                            <img class="f-icons" src="icons/responsive.png" alt="">
+                            <p class="features-p">Adjust to any device</p>
+                        </div>
+                        <div class="features col-lg-4">
+                            <img class="f-icons" src="icons/ease.png" alt="">
+                            <p class="features-p">Navigate with ease</p>
+                        </div>
+                        <div class="features col-lg-4">
+                            <img class="f-icons" src="icons/a.png" alt="">
+                            <p class="features-p">Have a clean presentation</p>
                         </div>
                     </div>
                 </div>
@@ -161,10 +125,39 @@
     </section>
 
 
+    <!--Projects Section -->
+    <section class="white-bg" id="Projects">
+        <div id="projects-section">
+            <h1 class="sec-title">Projects</h1>
+            <div class="price-row row">
+                <div class="projects-column col-lg-6 col-md-12">
+                    <a href="http://ritcheysroost.com/" target="blank">
+                        <img class="pimg" src="screensh/rr.png" alt="">
+                    </a>
+                </div>
+                <div class="projects-column col-lg-6 col-12">
+                    <div class="projects-l">
+                        <a href="https://djr76.github.io/rps/" target="blank">
+                            <img class="pimg" src="screensh/rps1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="projects-column col-md-12">
+                    <a href="https://djr76.github.io/wwdw/" target="blank">
+                        <img class="pimg" src="screensh/winnie.png" alt="">
+                    </a>
+                </div>
+                
+            </div>
+    </section>
+
+
+
 
     <section class="blue-bg" id="Contact">
-        <div class="sec-contact"></div>
-        <h1 class="sec-title">Contact</h1>
+        <div class="sec-contact">
+            <h1 class="sec-title">Contact</h1>
+        </div>
     </section>
 
     <section class="footer">
@@ -174,3 +167,46 @@
 </body>
 
 </html>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test</title>
+</head>
+<body class="bg-blue-300">
+<div class="md:flex lg:w-1/2 p-2">
+	<div class="md:flex-1 rounded-sm shadow-lg text-gray-600 bg-white rounded-sm shadow-lg">
+		<div class="overflow-hidden w-full flex leading-normal lg:h-full">
+			<div class="sm:w-1/3 lg:w-1/4 bg-teal-600 block">
+				<div class="text-center text-6xl font-bold text-white">1</div>
+			</div>
+			<p class="text-gray-600  sm:w-2/3 lg:w-3/4 p-4">
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.2/tailwind.min.css">
+<div class="md:flex lg:w-1/2 p-2">
+  <div class="md:flex-1 rounded-sm shadow-lg text-gray-600 bg-white rounded-sm shadow-lg">
+    <div class="overflow-hidden w-full flex leading-normal lg:h-full">
+      <div class="sm:w-1/3 lg:w-1/4 bg-teal-600 flex items-center justify-center">
+        <div class="text-center text-6xl font-bold text-white">1</div>
+      </div>
+      <p class="text-gray-600  sm:w-2/3 lg:w-3/4 p-4">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+        ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
